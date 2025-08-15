@@ -84,7 +84,7 @@ Links:
 
 ## Step 2 of 4: Email Verification
 
-![Signup Step 2](2of4.png)
+![Signup Step 2](assets/2of4.png)
 
 1. **Check Your Email Inbox**
    - Verification code sent to the email entered in Step 1.
