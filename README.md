@@ -1,89 +1,171 @@
-The login page contains:
-- **Email Address** field (restricted to approved domains)
-- **Password** field with **show/hide** toggle icon (👁)
-- **Login** button
-- **Navigation links** to:
-  - **Forgot Password**
-  - **Sign Up** 
+# Influenzer User Guide
 
-## Step-by-Step Login Process
+This guide provides step-by-step instructions for logging in, signing up, and resetting your password on Influenzer.io.
+
+---
+
+## Login Page
+![Login Page](assets/login.png)
+
+### Overview
+The login page allows users to access their Influenzer account using a **company or approved email address** and password.
+
+### Fields
+- **Email Address** – restricted to approved domains.
+- **Password** – includes a **show/hide toggle icon** (👁).
+- **Login** button.
+- Navigation links:
+  - **Forgot Password**
+  - **Sign Up**
+
+### Step-by-Step Login Process
 
 1. **Enter Your Approved Email Address**
-   - Only **company/test accounts** are accepted.  
-   - Public domains like `gmail.com`, `yahoo.com`, `outlook.com` **will not work** 
-   - Use your provided account email:  
-     - ✅ Example: `test.user@influenzer.io`  
-     - ✅ Example: `qa.user@companydomain.com`  
-     - ❌ Example: `john.doe@gmail.com`
+   - Only **company/test accounts** are accepted.
+   - Public domains like `gmail.com`, `yahoo.com`, `outlook.com` **will not work**.
+   - Examples:
+     - ✅ `test.user@influenzer.io`  
+     - ✅ `qa.user@companydomain.com`  
+     - ❌ `john.doe@gmail.com`
 
 2. **Enter Your Password**
-   - Must match the account password provided to you.
-   - Click the **👁 icon** to toggle password visibility if needed.
+   - Must match the password provided for your account.
+   - Click the **👁 icon** to toggle password visibility.
 
 3. **Click the “Log In” Button**
-   - Button activates only when both fields contain valid inputs.
-   - If your email domain isn’t on the approved list, login will fail.
+   - Activates only when both fields contain valid inputs.
+   - If your email domain is not approved, login will fail.
 
- ## Error Message 
- - **"Invalid email or password"** --- Email/password doesn’t match staging account 
- - **"User with this email does not exist"** ---incorrect email
- - **Server error**--- Backend or network issue  
+### Error Messages
+- **"Invalid email or password"** – Email/password doesn’t match account.  
+- **"User with this email does not exist"** – Incorrect email.  
+- **Server error** – Backend or network issue.
 
- The **Create an Account** page is **Step 1 of 4** in the onboarding process and contains:
+---
 
-- **Name** (Full Name) – Required
-- **Business Email** – Required, restricted to approved domains (no public email providers)
-- **Password** – Required, minimum 8 characters
-- **Continue** button (disabled until all fields are valid)
+## Signup Page (Step 1 of 4)
+![signup 1of4](assets/1of4.png)
 
-- Links for:
-  - **Already have an account? Login**
-  - **Contact support** via `help@influenzer.io`  
+### Overview
+Create a new Influenzer account with your business email.
 
-  ## Step-by-Step Signup Process
+### Fields
+- **Full Name*** – Required.
+- **Business Email*** – Required, restricted to approved domains.
+- **Password*** – Required, minimum 8 characters.
+- **Continue** button – Disabled until all fields are valid.
+
+Links:
+- **Already have an account? Login**
+- **Contact support** via [help@influenzer.io](mailto:help@influenzer.io)
+
+### Step-by-Step Process
 
 1. **Enter Your Full Name**
-   - Type your complete first and last name.
    - Example: `Alex Johnson`
 
 2. **Enter Your Business Email**
-   - Must belong to an **approved domain** (company or organization email).
-   - Public domains like `gmail.com`, `yahoo.com`, `outlook.com` **will not work**.
-   - ✅ Example: `alex.johnson@influenzer.io`  
-   - ✅ Example: `qa.user@companydomain.com`  
-   - ❌ Example: `alex.johnson@gmail.com`
+   - Must be an approved domain.
+   - Examples:
+     - ✅ `alex.johnson@influenzer.io`  
+     - ✅ `qa.user@companydomain.com`  
+     - ❌ `alex.johnson@gmail.com`
 
 3. **Create a Password**
-   - Minimum 8 characters (as shown in field hint).
-   - Recommended: Include uppercase, lowercase, number, and symbol for strong security.
+   - Minimum 8 characters.
+   - Recommended: uppercase, lowercase, number, symbol.
    - Example: `Secure@2024`
 
-4. **Click the “Continue” Button**
-   - Stays **disabled** until all required fields are correctly filled.
-   - On success, moves you to **Step 2 of 4** in the onboarding process.
+4. **Click “Continue”**
+   - Button remains **disabled** until all fields are valid.
+   - Success moves you to **Step 2 of 4**.
 
-## Step-by-Step Password Reset Process
+---
+
+## Step 2 of 4: Email Verification
+
+![signup 2of4](2of4.png)
+
+1. **Check Your Email Inbox**
+   - Verification code sent to the email entered in Step 1.
+   - Example: `dhruvi@onedomain.com`
+
+2. **Enter the 6-Digit Code**
+   - Enter exactly as shown in the email.
+   - Valid for a limited time.
+
+3. **Didn’t Receive the Code?**
+   - Click **"Resend code"**.
+   - Check **Spam/Promotions** folders.
+
+4. **Click “Continue”**
+   - Disabled until all 6 code boxes are filled.
+   - Proceeds to **Step 3 of 4** on success.
+
+---
+
+## Step 3 of 4: Who do you represent?
+![signup 3of4](assets/3of4.png)
+
+### Overview
+Collects information about professional affiliation to tailor the platform experience.
+
+### Fields
+1. **Who do you represent?*** – Radio button: Agency or Brand.
+2. **Agency or Brand Name*** – Text input: `Enter your agency or brand name`.
+3. **Your agency or brand based in?*** – Dropdown selection of countries.
+
+### Actions
+- **Continue** – Validates form and proceeds to Step 4.
+
+### Notes
+- Fields marked with `*` are mandatory.
+- Default selection is **Agency** if none is chosen.
+
+---
+
+## Step 4 of 4: Almost there!
+![signup4of4](assets/4of4.png)
+
+### Overview
+Gathers prior tool experience and referral source to personalize onboarding.
+
+### Fields
+1. **Have you used other tools before?** – Dropdown/multi-select.
+2. **From where did you learn about us?** – Dropdown selection.
+
+### Actions
+- **Create Account** – Submits data, creates account, redirects to login, then dashboard.
+
+### Notes
+- Both fields recommended for personalized onboarding.
+- Complete selections to proceed.
+
+---
+
+## Password Reset Process
+![forgot password](assets/fp.png)
 
 1. **Enter Your Registered Email**
-   - Type the email address linked to your Influenzer.io account.  
-   - Make sure:
-     - Email is correctly spelled.
-     - Email domain is valid (public or business — based on your account type).
+   - Linked to your Influenzer.io account.
    - Example: `alex.johnson@companydomain.com`
 
-3. **Submit the Request**
-   - Click the **Submit** button.
-   - If the email is found in the system:
-     - You will be notified "Reset password email sent sucessfully"
-     - You will receive a password reset email with instructions.
-   - If the email is **not registered**:
-     - You will see an error message (e.g., *"No account found with this email"*).
+2. **Submit the Request**
+   - Click **Submit**.
+   - Success: "Reset password email sent successfully"
+   - Failure: *"No account found with this email"*
 
-4. **Check Your Inbox**
-   - Open the password reset email sent from `help@influenzer.io`.
-   - Click the reset link and follow the instructions to create a new password.
+3. **Check Your Inbox**
+   - Open reset email from `help@influenzer.io`.
+   - Follow link to create a new password.
 
-5.**back to Login Page**
-   - Now you can Login using **New Password**.   
+4. **Return to Login Page**
+   - Log in using your **new password**.
 
+---
+
+## Support
+- **Email:** [help@influenzer.io](mailto:help@influenzer.io)
+
+---
 
