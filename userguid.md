@@ -5,6 +5,7 @@ This guide provides step-by-step instructions for logging in, signing up, and re
 ---
 
 ## Login Page
+![Login Page](assets/login.png)
 
 ### Overview
 The login page allows users to access their Influenzer account using a **company or approved email address** and password.
@@ -43,6 +44,7 @@ The login page allows users to access their Influenzer account using a **company
 ---
 
 ## Signup Page (Step 1 of 4)
+![Signup Step 1](assets/1of4.png)
 
 ### Overview
 Create a new Influenzer account with your business email.
@@ -82,7 +84,7 @@ Links:
 
 ## Step 2 of 4: Email Verification
 
-![Email Verification Screenshot](2of4.png)
+![Signup Step 2](2of4.png)
 
 1. **Check Your Email Inbox**
    - Verification code sent to the email entered in Step 1.
@@ -103,6 +105,7 @@ Links:
 ---
 
 ## Step 3 of 4: Who do you represent?
+![Signup Step 3](assets/3of4.png)
 
 ### Overview
 Collects information about professional affiliation to tailor the platform experience.
@@ -122,6 +125,7 @@ Collects information about professional affiliation to tailor the platform exper
 ---
 
 ## Step 4 of 4: Almost there!
+![Signup Step 4](assets/4of4.png)
 
 ### Overview
 Gathers prior tool experience and referral source to personalize onboarding.
@@ -140,6 +144,7 @@ Gathers prior tool experience and referral source to personalize onboarding.
 ---
 
 ## Password Reset Process
+![forgot password](assets/fp.png)
 
 1. **Enter Your Registered Email**
    - Linked to your Influenzer.io account.
@@ -164,5 +169,3 @@ Gathers prior tool experience and referral source to personalize onboarding.
 
 ---
 
-## Footer
-`© influenzer.io All rights reserved.`
